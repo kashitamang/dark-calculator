@@ -1,8 +1,45 @@
-body {
-    background-color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: chartreuse;
 }
 
 h1 {
-    color: white;
+    color: chartreuse;
+}
+
+div {
+    width: 320px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
     background-color: black;
+    text-align: center;
+    color: chartreuse;
+}
+
+.header {
+    background-color: black;
+}
+
+input {
+    text-align: center;
+    color: chartreuse;
+}
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+}
+@keyframes blink {
+    0% {
+    opacity: 1;
+    }
+    50% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
 }
