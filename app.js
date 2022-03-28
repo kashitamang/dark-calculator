@@ -18,7 +18,7 @@ addButtonEl.addEventListener('click', () => {
     const sum = add(num1, num2);
 
     // - change the textContent to the sum
-    resultSumEl.textContent = sum;
+    resultSumEl.textContent = ("calculation complete, your sum is: ") + sum;
 });
 
 // declaration: i describe the recipe
